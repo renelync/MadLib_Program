@@ -35,7 +35,7 @@ bucket_for_story_parts = {}
 # loop that fills story parts list
 for part in story_parts:
   #asks the user for different word types
-  word_choice = input(f"Please enter {part}: ")
+  word_choice = input(f"\nNext, please enter your {part}: ")
   #places each chosen word inside the dictionary. It turns each word type into a key, while the user's word choice is that key's value.
   bucket_for_story_parts[part] = word_choice.lower()
 

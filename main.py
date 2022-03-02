@@ -13,7 +13,7 @@ print(dictionary[0]["Nouns"])
 print(dictionary[0]["Adjectives"])
 print(dictionary[0]["Verbs"])
 print(dictionary[0]["Adverbs"])
-print("\nAll righty then! Now that we understand those words, let's make a MadLib together! You'll need to provide me with some information below.\n")
+print("\nNow that we understand those words, let's make a MadLib together! You'll need to provide me with some information below.\n")
 
 city_name = input(f"First, what city would you like your main character to be from? ")
 
